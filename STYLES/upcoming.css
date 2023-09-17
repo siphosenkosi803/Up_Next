@@ -1,0 +1,98 @@
+/* Reset some default styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to 100% of viewport height */
+}
+
+/* Header styles */
+header {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Change navigation menu text color to white */
+nav ul li a {
+    color: white;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    color: black;
+    flex-grow: 1; /* Allow main content to grow and fill available space */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Call to action button styles */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Showcard Gothic', sans-serif;
+}
+
+.cta-button:hover {
+    background-color: red;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
